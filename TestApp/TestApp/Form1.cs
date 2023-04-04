@@ -33,8 +33,8 @@ namespace TestApp
                 string filename = openFileDialog1.FileName; StreamReader file = new StreamReader(filename);
                 DataTable table = new DataTable();
 
-                table.Columns.Add("x");
-                table.Columns.Add("y");
+                table.Columns.Add("a");
+                table.Columns.Add("b");
 
                 while (!file.EndOfStream)
                 {
